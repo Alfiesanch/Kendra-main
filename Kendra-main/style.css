@@ -1,0 +1,95 @@
+
+body { 
+    background-color: lightgreen;
+    
+    
+    
+    
+    text-align: center;
+  }
+  .test {
+    color: rgb(255, 0, 0);
+  }
+  
+
+
+  #section2{
+    text-align:center;
+  }
+ 
+
+.box{
+  border: 5px solid black;
+  padding: .50%;
+  margin: 1.0%;
+  font-size:26px;
+  font-weight:bold;
+  color:red;
+  background-color:aqua;
+  
+}
+.padding{
+  border: 5px solid black;
+  
+  margin: 20px;
+  margin-top: 300;
+  font-size:36px;
+  font-weight:bold;
+  color:red;
+  background-color:aqua;
+  
+  
+}
+p.a {
+  font-weight: normal;
+  
+}
+
+p.b {
+  font-weight: bold;
+}
+
+p.c {
+  font-weight: 800;
+}
+.margin{
+  border: 2px solid black;
+  font-size:15px;
+  width:center;
+  font-weight:bold;
+  color:black;
+  background-color:aqua;
+
+}
+.bg-img{
+  background-image: url("Knight\ Rider\ Car.jpg");
+  
+}
+a.highlight:hover {
+  color: black;
+  font-size: 26px;
+} 
+img {
+  float: left;
+  border-radius:50%;
+  
+}
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 100px;
+  background-color: aqua;
+  border: 5px solid #4CAF50;
+  z-index: -1;
+}
+.pic {
+  float: center;
+  border-radius: 0;
+  padding: 10px;
+  float: none;
+  
+}
+.navbar-color{
+  background-color: green;
+}
