@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -41,7 +42,7 @@
       
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Resumes By Kendra</a>
+          <a class="navbar-brand" href="index.html"><img src="assets/img/ResumesByKendraLogo.PNG" class="logo height="60px" width="70px" alt="LogoKendra" > </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -55,9 +56,9 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              <a class="nav-link " href="aboutme.html">About Me</a>
-              <a class="nav-link" href="#Quote">Quote</a>
-              <a class="nav-link " href="Contactpage.html">Contact Us</a>
+              <a class="nav-link" href="aboutme.html">About Me</a>
+              <a class="nav-link" href="index.html#Services">Services</a>
+              <a class="nav-link" href="Contactpage.html">Contact Us</a>
             </div>
           </div>
         </div>
@@ -65,20 +66,17 @@
         <!-- Navbar -->
       </header>
       <body>
-        <div class="Spacer"></div>
+        <!-- <div class="Spacer"></div> -->
       
         <!-- Background image -->
         <div
-          class="p-5 text-center bg-image"
-          style="
-            background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
-            height: 400px;">
-          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+          class="p-5 text-center bg-image">
+          <img src="assets/img/Resumes_by_Kendra.jpg" alt="Kendrabackground" class="bg-kendra">
             <div class="d-flex justify-content-center align-items-center h-100">
-              <div class="text-white">
-                <h1 class="mb-3">RESUMES BY KENDRA</h1>
-                <h4 class="mb-3">Resume writing for all career paths.</h4>
-                <a class="btn btn-outline-light btn-lg" href="#Quote" role="button"
+              <div class="text-black">
+                <!-- <h1 class="mb-3">RESUMES BY KENDRA</h1> -->
+                <h4 class="mb-3" style="font-family:scriptify;">Resume writing for all career paths.</h4>
+                <a class="btn btn-outline-dark btn-lg" href="#Quote" role="button"
                 >Get A Quote</a>
               </div>
             </div>
@@ -92,12 +90,12 @@
     <!-- space and padding for images -->
 
 <!--Section: Content-->
-<section class="text-center">
+<section id="Services" class="text-center">
   <strong style="
     font-size: xxx-large;
     font-family: sans-serif;
     text-decoration-line: underline;
-">Service</strong>
+">Services</strong>
 
   <div class="row">
     <div class="col-lg-4 col-md-12 mb-4">
@@ -111,10 +109,9 @@
         <div class="card-body">
           <h5 class="card-title">Revamp Resume</h5>
           <p class="card-text">
-            Some quick example text to build on the card title and make up the bulk of the
-            card's content.
+            
           </p>
-          <a href="#!" class="btn btn-primary">Read</a>
+          <!-- <a href="#!" class="btn btn-primary">Read</a> -->
         </div>
       </div>
     </div>
@@ -130,10 +127,9 @@
         <div class="card-body">
           <h5 class="card-title">Update Resume</h5>
           <p class="card-text">
-            Some quick example text to build on the card title and make up the bulk of the
-            card's content.
+            I will edit your resume to showcase your experience with a new, eye-catching design and keywords to land your dream job. 
           </p>
-          <a href="#!" class="btn btn-primary">Read</a>
+          <!-- <a href="#!" class="btn btn-primary">Read</a> -->
         </div>
       </div>
     </div>
@@ -149,10 +145,9 @@
         <div class="card-body">
           <h5 class="card-title">New Resume</h5>
           <p class="card-text">
-            Some quick example text to build on the card title and make up the bulk of the
-            card's content.
+            No resume? No problem! I can create you a new resume from scratch. 
           </p>
-          <a href="#!" class="btn btn-primary">Read</a>
+          <!-- <a href="#!" class="btn btn-primary">Read</a> -->
         </div>
       </div>
     </div>
@@ -167,13 +162,15 @@
 
     <main>
 <div class="container2"></div>
-<legend id="Quote" style="color: red;font-size: 3.5rem;font-family: fantasy;">Get A Quote!</legend>
+<legend id="Quote" style="color: black;font-size: 3.5rem;font-family: fantasy;">Get A Quote!</legend>
 
 <div class="outer-margin2">
 
 <div class="outer-margin">
   <div class="wrapper">
     <form name="jQueryBootstrapForm" id="jQueryBootstrapForm" action="assets/php/getMail.php" method="post" enctype='multipart/form-data' autocomplete="on">
+
+
       <!-- Text input-->
       <div class="input-row">
         <label class="control-label" for="fullname" >Full Name</label>
@@ -184,6 +181,8 @@
           <label style="color:red; font-weight:normal;" class="error" for="fullname" generated="true"></label>
         </div>
       </div>
+
+
       <!-- Text input-->
       <div class="input-row">
         <label class="control-label" for="email">E-Mail</label>
@@ -194,6 +193,8 @@
           <label style="color:red; font-weight:normal;" class="error" for="email" generated="true"></label>
         </div>
       </div>
+
+
       <!-- Text input-->
       <div class="input-row">
         <label class="control-label" for="phone">Phone </label>
@@ -204,62 +205,77 @@
           <label style="color:red; font-weight:normal;" class="error" for="phone" generated="true"></label>
         </div>
       </div>
+
+
             <!-- Text input-->
             <div class="input-row">
-              <label class="control-label" for="email">Education</label>
+              <label class="control-label" for="Education">Education</label>
               <div class="inputGroupContainer">
                 <div class="input-group"> <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                  <input name="text" id="email" placeholder="Education (Optional)" class="form-control" type="text">
+                  <input name="Education" id="Education" placeholder="Education (Optional)" class="form-control" type="text">
                 </div>
-                <label style="color:red; font-weight:normal;" class="error" for="email" generated="true"></label>
+                <label style="color:red; font-weight:normal;" class="error" for="Education" generated="true"></label>
               </div>
+
+
 
                           <!-- Text input-->
             <div class="input-row">
-              <label class="control-label" for="SelectService">Service Type</label>
+              <label class="control-label" for="Service">Service Type</label>
               <div class="inputGroupContainer">
                 <div class="input-group"> <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                  <input name="text" id="email" placeholder="Input Service * " class="form-control" type="text">
+                  <input name="Service" id="Service" placeholder="Input Service * " class="form-control" type="text">
                 </div>
 
-                <label style="color:red; font-weight:normal;" class="error" for="email" generated="true"></label>
+                <label style="color:red; font-weight:normal;" class="error" for="Service" generated="true"></label>
               </div>
+
+
 
       <!-- Text area -->
       <div style="display:block; min-height:120px; margin-top:-5px;">
-        <label class="control-label" for="comment">Describe Your Work</label>
+        <label class="control-label" for="goal">Describe Your Work</label>
         <div class="inputGroupContainer">
           <div class="input-group"> <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-            <textarea class="form-control" name="comment" id="comment" placeholder="Message *" onKeyUp="limitTextCount('comment', 'divcount', 1000);" onKeyDown="limitTextCount('comment', 'divcount', 1000);"></textarea>
+            <textarea class="form-control" name="goal" id="goal" placeholder="Message *" onKeyUp="limitTextCount('comment', 'divcount', 1000);" onKeyDown="limitTextCount('comment', 'divcount', 1000);"></textarea>
           </div>
           <span id="divcount" style="font-size:0.8em; color:#999999; margin-top:4px; float:right;">1000 Countdown</span>
-          <label style="color:red; font-weight:normal;" class="error" for="comment" generated="true"></label>
+          <label style="color:red; font-weight:normal;" class="error" for="goal" generated="true"></label>
         </div>
-              <!-- Text area -->
-      <div style="display:block; min-height:120px; margin-top:-5px;">
-        <label class="control-label" for="comment">What is your desired occupation, industry, or career goal?</label>
-        <div class="inputGroupContainer">
-          <div class="input-group"> <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-            <textarea class="form-control" name="comment" id="comment" placeholder="Message *" onKeyUp="limitTextCount('comment', 'divcount', 1000);" onKeyDown="limitTextCount('comment', 'divcount', 1000);"></textarea>
-          </div>
-          <span id="divcount" style="font-size:0.8em; color:#999999; margin-top:4px; float:right;">1000 Countdown</span>
-          <label style="color:red; font-weight:normal;" class="error" for="comment" generated="true"></label>
-        </div>
+
+
 
               <!-- Text area -->
       <div style="display:block; min-height:120px; margin-top:-5px;">
-        <label class="control-label" for="comment">Additional information/Questions?</label>
+        <label class="control-label" for="Work">What is your desired occupation, industry, or career goal?</label>
         <div class="inputGroupContainer">
           <div class="input-group"> <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-            <textarea class="form-control" name="comment" id="comment" placeholder="Message *" onKeyUp="limitTextCount('comment', 'divcount', 1000);" onKeyDown="limitTextCount('comment', 'divcount', 1000);"></textarea>
+            <textarea class="form-control" name="Work" id="Work" placeholder="Message *" onKeyUp="limitTextCount('comment', 'divcount', 1000);" onKeyDown="limitTextCount('comment', 'divcount', 1000);"></textarea>
           </div>
           <span id="divcount" style="font-size:0.8em; color:#999999; margin-top:4px; float:right;">1000 Countdown</span>
-          <label style="color:red; font-weight:normal;" class="error" for="comment" generated="true"></label>
+          <label style="color:red; font-weight:normal;" class="error" for="Work" generated="true"></label>
+        </div>
+
+
+
+              <!-- Text area -->
+      <div style="display:block; min-height:120px; margin-top:-5px;">
+        <label class="control-label" for="Additional">Additional information/Questions?</label>
+        <div class="inputGroupContainer">
+          <div class="input-group"> <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+            <textarea class="form-control" name="Additional" id="Additional" placeholder="Message *" onKeyUp="limitTextCount('comment', 'divcount', 1000);" onKeyDown="limitTextCount('comment', 'divcount', 1000);"></textarea>
+          </div>
+          <span id="divcount" style="font-size:0.8em; color:#999999; margin-top:4px; float:right;">1000 Countdown</span>
+          <label style="color:red; font-weight:normal;" class="error" for="Additional" generated="true"></label>
         </div>
       </div>
       </div>
-      <pre style="color:red">*Dates Required for new resume creation.</pre>
-      <label for="">Upload Your Resume</label>
+
+
+
+
+      <pre style="color:red">*Dates Required for new resume creation.</pre> <br>
+      <label for="">Upload Your Resume</label></br>
       <input type="file" name="fileToUpload1[]" id="fileToUpload" multiple="true">
       <hr>
 
@@ -267,7 +283,7 @@
       <div class="input-row" style="margin-bottom:-20px;">
         <div>
           <!-- For sliver button change btn-primary to btn-default - you can add button width:100%; for full width button -->
-          <input type="submit" value="Submit" class="btn btn-lg" style="position:relative;color: white;display: block;">
+          <input type="submit" value="Submit" class="btn btn-lg" style="position:relative;color: black;display: block;margin-left:45%;">
         </div>
       </div>
     </form>
@@ -275,7 +291,6 @@
 </div>
 </div>
 </div>
-
     </main>
 
     <!-- FOOTER -->
