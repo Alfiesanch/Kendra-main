@@ -1,5 +1,5 @@
 
-li,ul{list-style:none;padding:0;margin:0}.sec-title{position:relative;padding-bottom:40px}.sec-title .title{position:relative;color:black;font-size:36px;font-weight:700;padding-right:50px;margin-bottom:15px;margin-left:25%;display:inline-block;text-transform:capitalize}
+li,ul{list-style:none;padding:0;margin:0}.sec-title{position:relative;padding-bottom:40px}.sec-title .title{position:relative;color:black;font-size:36px;font-weight:700;padding-right:50px;margin-bottom:15px;margin-left:5%;display:inline-block;text-transform:capitalize}
 .sec-title .title:before{position:absolute;content:'';right:0;bottom:7px;width:40px;height:1px;background-color:#bbb}.sec-title h2{position:relative;color:#252525;font-size:36px;font-weight:700;line-height:1.5em;display:block}.sec-title.light h2{color:#252525}
 .contact-page-section{position:relative;padding-top:110px; padding-bottom: 110px;}.contact-page-section .inner-container{position:relative;z-index:1;box-shadow:0 0 15px 5px rgba(0,0,0,.1)}
 .contact-page-section .form-column{position:relative;padding:0 0 0 15px}.contact-page-section .form-column .inner-column{position:relative;padding:60px 45px 30px;}
